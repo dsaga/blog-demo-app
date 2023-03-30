@@ -1,4 +1,4 @@
-### TX Blog Project - Dusan Petkovic
+### Demo Blog Project - Dusan Petkovic
 
 
 ## 1. Step 

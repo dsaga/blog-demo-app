@@ -1,0 +1,1 @@
+export { IPostEntity, PostEntity } from 'shared-entities-module'

@@ -1,0 +1,31 @@
+.postList {
+  list-style: none;
+  padding: 0;
+}
+
+.post {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.postMoreLink {
+  padding: 1rem;
+  color: var(--color-text-primary);
+}
+.commentsCount {
+    font-size: 1rem;
+    color: var(--color-text-primary);
+}
+.postMoreLink:hover {
+  color: var(--color-primary);
+}
+
+.postTitle {
+  margin-top: 0;
+}
+
+.postContent {
+  margin-bottom: 0;
+}

@@ -1,0 +1,25 @@
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  line-height: 64px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoWrapper {
+  max-width: 120px;
+  height: auto;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.appName {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,72 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "10 Tips for Better Sleep",
+        "description": "Learn how to get a better night's sleep with these simple tips.",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id luctus mauris, eu consectetur risus. Sed varius vel velit id consequat. Sed pellentesque odio ipsum, in aliquam lacus eleifend a. Nulla facilisi. Morbi vel elit elit. Sed malesuada aliquam est, et pretium enim sodales ut. Sed suscipit velit velit, a auctor orci sagittis vel. Duis eget risus lorem. Donec semper bibendum ante in auctor. Donec eu rhoncus sapien.",
+        "path": "/blog/sleep-tips",
+        "author": "John Doe"
+      },
+      {
+        "id": 2,
+        "title": "The Benefits of Meditation",
+        "description": "Discover the many benefits of a regular meditation practice.",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id luctus mauris, eu consectetur risus. Sed varius vel velit id consequat. Sed pellentesque odio ipsum, in aliquam lacus eleifend a. Nulla facilisi. Morbi vel elit elit. Sed malesuada aliquam est, et pretium enim sodales ut. Sed suscipit velit velit, a auctor orci sagittis vel. Duis eget risus lorem. Donec semper bibendum ante in auctor. Donec eu rhoncus sapien.",
+        "path": "/blog/meditation-benefits",
+        "author": "Jane Smith"
+      },
+      {
+        "id": 3,
+        "title": "How to Build a Successful Business",
+        "description": "Learn the key strategies for building a successful business.",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id luctus mauris, eu consectetur risus. Sed varius vel velit id consequat. Sed pellentesque odio ipsum, in aliquam lacus eleifend a. Nulla facilisi. Morbi vel elit elit. Sed malesuada aliquam est, et pretium enim sodales ut. Sed suscipit velit velit, a auctor orci sagittis vel. Duis eget risus lorem. Donec semper bibendum ante in auctor. Donec eu rhoncus sapien.",
+        "path": "/blog/business-success",
+        "author": "Bob Johnson"
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "post_id": 1,
+        "text": "These tips really worked for me, thank you!",
+        "author": "SleepyHead123"
+      },
+      {
+        "id": 2,
+        "post_id": 1,
+        "text": "I tried these tips but they didn't work for me.",
+        "author": "Insomniac456"
+      },
+      {
+        "id": 3,
+        "post_id": 2,
+        "text": "Meditation has been life-changing for me, highly recommend!",
+        "author": "ZenMaster789"
+      },
+      {
+        "id": 4,
+        "post_id": 2,
+        "text": "I've always wanted to try meditation but don't know where to start.",
+        "author": "CuriousCat"
+      },
+      {
+        "id": 5,
+        "post_id": 2,
+        "text": "I found this article very informative, thank you!",
+        "author": "InfoSeeker"
+      },
+      {
+        "id": 6,
+        "post_id": 3,
+        "text": "These tips are spot on, thank you for sharing!",
+        "author": "Entrepreneur123"
+      },
+      {
+        "id": 7,
+        "post_id": 3,
+        "text": "I've tried these strategies but haven't had much success.",
+        "author": "StrugglingBusinessOwner"
+      }
+    ]
+  }
