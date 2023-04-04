@@ -1,7 +1,7 @@
-### Demo Blog Project - Dusan Petkovic
+# Demo Blog Project - Dusan Petkovic
 
 
-## 1. Step 
+## Step 1
 
 - Install shared library for common models between the server and client 
 ```bash
@@ -11,7 +11,7 @@ yarn build
 ```
 
 
-## 2. Step 
+## Step 2 
 - install server dependencies 
 ```bash 
 cd server
@@ -21,7 +21,7 @@ yarn dev
 The server will be available on http://localhost:3002/api (by default)
 
 
-# 3. Step
+## Step 3
 
 - install client dependencies 
 ```bash
@@ -30,7 +30,7 @@ yarn install
 yarn dev
 ```
 
-## 4. Step
+## Step 4
 
 You're good to go!
 the website will be available on http://localhost:3001 (by default)
