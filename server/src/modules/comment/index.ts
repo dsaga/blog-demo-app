@@ -6,6 +6,4 @@ import { commentDataSource } from "../../data-access";
 export const commentService = MakeCommentService({ commentDataSource });
 
 
-// export types from module
-
 export type { ICommentEntity } from "./comment.entity";

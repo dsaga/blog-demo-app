@@ -1,4 +1,3 @@
-// import mockData.json file
 
 import { ICommentEntity } from "../modules/comment/comment.entity";
 import { IPostEntity } from "../modules/post/post.entity";
@@ -12,12 +11,10 @@ export interface IDataSource {
 import { makeCommentDataSource } from "./comment.data";
 import { makePostDataSource } from "./post.data";
 
-// fix bug with typescript
 const commentDataSource = makeCommentDataSource({
   dataSource: mockData as IDataSource,
 });
 
-// fix bug with typescript
 const postDataSource = makePostDataSource({
   dataSource: mockData as IDataSource,
 });

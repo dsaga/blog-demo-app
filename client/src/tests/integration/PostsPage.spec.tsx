@@ -4,7 +4,7 @@ import { getPostsMock } from "shared-entities-module";
 import App from "../../App";
 import { useGetPosts } from "../../features/posts/useGetPosts";
 
-jest.mock("../../assets/demo-logo.png", () => () => "logo");
+jest.mock("../../assets/demo-logo.png", () => "logo.png");
 
 jest.mock("../../features/posts/useGetPosts", () => ({
   useGetPosts: jest.fn(),
@@ -15,7 +15,7 @@ describe("<PostsPage>", () => {
     (useGetPosts as jest.Mock).mockReturnValue({ data: getPostsMock });
 
     render(
-      <MemoryRouter initialEntries={["Posts Page", "/"]}>
+      <MemoryRouter initialEntries={["/"]}>
         <App />
       </MemoryRouter>
     );

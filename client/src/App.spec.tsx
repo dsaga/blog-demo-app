@@ -3,7 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 
 jest.mock("./AppRoutes");
-jest.mock("./assets/demo-logo.png", () => () => "logo");
+jest.mock("./assets/demo-logo.png", () => "logo.png");
 
 describe("<App>", () => {
   it("app renders and should contain the Blog App title", () => {

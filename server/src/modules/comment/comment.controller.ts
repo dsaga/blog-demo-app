@@ -1,12 +1,9 @@
-// revealing module pattern define comment controller as a function
 import { Request, Response } from "express";
 import { ICommentEntity, ICreateCommentDto } from "shared-entities-module";
 import { RequestStatus } from "../../utils/request/request-status.enum";
 import { commentService } from "./";
 
 export const CommentController = {
-  // comment controller is a function that returns an object
-  // add types for req and res parameters from express
   getComments: async function (req: Request, res: Response) {
     try {
       const comments = await commentService.getCommentsForPostId(

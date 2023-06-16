@@ -1,4 +1,3 @@
-// // revealing module pattern define comment controller as a function
 import { Request, Response } from "express";
 import { RequestStatus } from "../../utils/request/request-status.enum";
 import { postService } from "./";
@@ -11,8 +10,6 @@ import { commentService } from "../comment";
 type CommentsCount = { [key: string]: number };
 
 export const PostController = {
-  // comment controller is a function that returns an object
-  // add types for req and res parameters from express
   getPosts: async function (
     req: Request,
     res: Response
