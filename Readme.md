@@ -1,5 +1,6 @@
 # Demo Blog Project - Dusan Petkovic
 
+![Demo Website](/client/src/assets/app-demo.png)
 
 ## Step 1
 
