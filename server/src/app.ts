@@ -9,7 +9,7 @@ const app = express();
 
 // allow access from our client at specified port
 var corsOptions = {
-  origin: process.env.CLIENT_HOST,
+  origin: ['http://localhost:745',process.env.CLIENT_HOST],
   optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 app.use(cors(corsOptions));
